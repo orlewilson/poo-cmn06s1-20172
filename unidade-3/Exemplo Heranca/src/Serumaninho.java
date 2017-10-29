@@ -6,8 +6,8 @@
  * Descrição:	Classe para representar o 
  * 				modelo Serumaninho
  */
-
-public class Serumaninho {
+// abstract = não permite criar objeto
+public abstract class Serumaninho {
 
 	// atributos
 	private String nome;
@@ -34,4 +34,24 @@ public class Serumaninho {
 	public String getNome() {
 		return this.nome;
 	}
+	
+	// mostrar dados 
+	public void mostrarDados() {
+		// recomendado
+		System.out.println("Nome: " + getNome());
+
+//		System.out.println("Nome: " + this.nome);
+	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+

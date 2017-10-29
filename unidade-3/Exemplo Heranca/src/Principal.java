@@ -11,5 +11,15 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
+		Aluno al1 = new Aluno();
+		Professor prof1 = new Professor();
+		
+		
 	}
 }
+
+
+
+
+
+
